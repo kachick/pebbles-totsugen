@@ -7,9 +7,11 @@ pebbles-totsugen
 なにこれ
 -----------
 
+```plaintext
 ＿人人人人人人人人人＿
 ＞　突然のリリース　＜
 ￣Y^Y^Y^Y^Y^Y^Y^Y￣
+```
 
 使い方
 -----
@@ -40,8 +42,8 @@ $ echo '突然のSTDIN' | totsugen
 require 'pebbles/totsugen'
 
 Pebbles::TotsuGen.generate('突然のrequire') #=> ＿人人人人人人人人＿
-                                               ＞　突然のrequire　＜
-                                               ￣Y^Y^Y^Y^Y^Y^Y￣
+                                           #   ＞　突然のrequire　＜
+                                           #   ￣Y^Y^Y^Y^Y^Y^Y￣
 
 ```
 
