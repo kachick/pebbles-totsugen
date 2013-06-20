@@ -3,7 +3,7 @@ require './lib/pebbles/totsugen'
 Gem::Specification.new do |gem|
   # specific
 
-  gem.description   = %q{totsuzenno generator!!)"}
+  gem.description   = %q{totsuzenno generator!!}
 
   gem.summary       = gem.description.dup
   gem.homepage      = 'http://kachick.github.com/pebbles-totsugen/'
