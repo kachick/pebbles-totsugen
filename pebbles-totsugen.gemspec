@@ -11,10 +11,10 @@ Gem::Specification.new do |gem|
   gem.name          = 'pebbles-totsugen'
   gem.version       = Pebbles::TotsuGen::VERSION.dup
 
-  gem.add_development_dependency 'yard', '>= 0.8.6.1', '< 0.9'
-  gem.add_development_dependency 'rspec', '>= 2.13', '< 3'
+  gem.add_development_dependency 'rspec', '>= 3.8', '< 4'
+  gem.add_development_dependency 'yard', '>= 0.9.20', '< 2'
   gem.add_development_dependency 'rake', '>= 10', '< 20'
-  gem.add_development_dependency 'bundler', '>= 1.3.5', '< 2'
+  gem.add_development_dependency 'bundler', '>= 2', '< 3'
 
   # common
 
