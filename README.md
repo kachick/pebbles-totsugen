@@ -50,7 +50,7 @@ Pebbles::TotsuGen.generate('突然のrequire') #=> ＿人人人人人人人人�
 動作環境
 -------------
 
-* Ruby - [1.9.2以上](http://travis-ci.org/#!/kachick/pebbles-totsugen)
+* Ruby - [2.5以上](http://travis-ci.org/#!/kachick/pebbles-totsugen)
 
 Install
 -------
