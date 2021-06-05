@@ -1,8 +1,6 @@
 # coding: utf-8
 
-require_relative 'helper'
-
-describe Pebbles::TotsuGen do
+RSpec.describe Pebbles::TotsuGen do
   context '.generate' do
     it "簡易フォーマットを返す" do
       str = Pebbles::TotsuGen::SimplifiedFormatter.new('突然の死').result
@@ -11,7 +9,7 @@ describe Pebbles::TotsuGen do
   end
 end
 
-describe Pebbles::TotsuGen::OriginFormatter do
+RSpec.describe Pebbles::TotsuGen::OriginFormatter do
   let(:generator) {Pebbles::TotsuGen::OriginFormatter}
 
   context '#result' do
@@ -55,7 +53,7 @@ EOS
   end
 end
 
-describe Pebbles::TotsuGen::SimplifiedFormatter do
+RSpec.describe Pebbles::TotsuGen::SimplifiedFormatter do
   let(:generator) {Pebbles::TotsuGen::SimplifiedFormatter}
 
   context '#result' do

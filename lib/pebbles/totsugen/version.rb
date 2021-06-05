@@ -1,5 +1,7 @@
 # coding: us-ascii
 
-module Pebbles::TotsuGen
-  VERSION = '0.1.0'.freeze
+module Pebbles
+  module TotsuGen
+    VERSION = '0.2.0'
+  end
 end

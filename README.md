@@ -1,7 +1,7 @@
 pebbles-totsugen
 ================
 
-[![Build Status](https://secure.travis-ci.org/kachick/pebbles-totsugen.png)](http://travis-ci.org/kachick/pebbles-totsugen)
+![Build Status](https://github.com/kachick/pebbles-totsugen/actions/workflows/test_behaviors.yml/badge.svg?branch=main)
 [![Gem Version](https://badge.fury.io/rb/pebbles-totsugen.png)](http://badge.fury.io/rb/pebbles-totsugen)
 
 なにこれ
@@ -16,12 +16,19 @@ pebbles-totsugen
 使い方
 -----
 
+Ruby 2.6 以上 でテストしています。
+
+```console
+$ gem install pebbles-totsugen
+これで `totsugen.rb` というのが $PATH に入ります。やばいですね。
+```
+
 ### ターミナルから
 
 引数で渡したり
 
-```bash
-$ totsugen 突然の死
+```console
+$ totsugen.rb 突然の死
 ＿人人人人人人＿
 ＞　突然の死　＜
 ￣Y^Y^Y^Y^Y￣
@@ -29,8 +36,8 @@ $ totsugen 突然の死
 
 標準入力で渡したり
 
-```bash
-$ echo '突然のSTDIN' | totsugen
+```console
+$ echo '突然のSTDIN' | totsugen.rb
 ＿人人人人人人人＿
 ＞　突然のSTDIN　＜
 ￣Y^Y^Y^Y^Y^Y￣
@@ -47,31 +54,8 @@ Pebbles::TotsuGen.generate('突然のrequire') #=> ＿人人人人人人人人�
 
 ```
 
-動作環境
--------------
-
-* Ruby - [2.5以上](http://travis-ci.org/#!/kachick/pebbles-totsugen)
-
-Install
--------
-
-```bash
-$ gem install pebbles-totsugen
-```
-
-Link
+Links
 ----
 
-* [Home](http://kachick.github.com/pebbles-totsugen/)
-* [code](https://github.com/kachick/pebbles-totsugen)
-* [API](http://kachick.github.com/pebbles-totsugen/yard/frames.html)
-* [issues](https://github.com/kachick/pebbles-totsugen/issues)
-* [CI](http://travis-ci.org/#!/kachick/pebbles-totsugen)
-* [gem](https://rubygems.org/gems/pebbles-totsugen)
-
-お決まりのライセンス
---------
-
-The MIT X11 License  
-Copyright (c) 2013 Kenichi Kamiya  
-See MIT-LICENSE for further details.
+* [Repository](https://github.com/kachick/pebbles-totsugen)
+* [API documents](https://kachick.github.io/pebbles-totsugen/)
