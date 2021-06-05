@@ -15,38 +15,38 @@ RSpec.describe Pebbles::TotsuGen::OriginFormatter do
   context '#result' do
     context '引数を突然のほにゃほにゃフォーマットにして返せるよねーっていう' do
       specify '基本型として、「突然の死」をうまいこと片付ける' do
-        str = <<'EOS'
+        str = <<'OUTPUT'
 ＿人人 人人＿
 ＞ 突然の死 ＜
 ￣Y^Y^Y^Y￣
-EOS
+OUTPUT
         expect(generator.new('突然の死').result).to eq(str.chomp)
       end
 
       specify '基本型から1文字増えてもうまいことやる' do
-        str = <<'EOS'
+        str = <<'OUTPUT'
 ＿人人人人人＿
 ＞ 突然の昼寝 ＜
 ￣Y^Y^Y^Y^Y￣
-EOS
+OUTPUT
         expect(generator.new('突然の昼寝').result).to eq(str.chomp)
       end
 
       specify '基本型から1文字減ってもうまいことやる' do
-        str = <<'EOS'
+        str = <<'OUTPUT'
 ＿人人人＿
 ＞ うだー ＜
 ￣Y^Y^Y￣
-EOS
+OUTPUT
         expect(generator.new('うだー').result).to eq(str.chomp)
       end
 
       specify '1byte文字と2byte文字混じってる時にもうまいことやっつける' do
-        str = <<'EOS'
+        str = <<'OUTPUT'
 ＿人人人人人＿
 ＞ 突然のRuby ＜
 ￣Y^Y^Y^Y^Y￣
-EOS
+OUTPUT
         expect(generator.new('突然のRuby').result).to eq(str.chomp)
       end
     end
@@ -59,38 +59,38 @@ RSpec.describe Pebbles::TotsuGen::SimplifiedFormatter do
   context '#result' do
     context '引数を突然のほにゃほにゃフォーマットにして返せるよねーっていう' do
       specify '基本型として、「突然の死」をうまいこと片付ける' do
-        str = <<'EOS'
+        str = <<'OUTPUT'
 ＿人人人人人人＿
 ＞　突然の死　＜
 ￣Y^Y^Y^Y^Y￣
-EOS
+OUTPUT
         expect(generator.new('突然の死').result).to eq(str.chomp)
       end
 
       specify '基本型から1文字増えてもうまいことやる' do
-        str = <<'EOS'
+        str = <<'OUTPUT'
 ＿人人人人人人人＿
 ＞　突然の昼寝　＜
 ￣Y^Y^Y^Y^Y^Y￣
-EOS
+OUTPUT
         expect(generator.new('突然の昼寝').result).to eq(str.chomp)
       end
 
       specify '基本型から1文字減ってもうまいことやる' do
-        str = <<'EOS'
+        str = <<'OUTPUT'
 ＿人人人人人＿
 ＞　うだー　＜
 ￣Y^Y^Y^Y￣
-EOS
+OUTPUT
         expect(generator.new('うだー').result).to eq(str.chomp)
       end
 
       specify '1byte文字と2byte文字混じってる時にもうまいことやっつける' do
-        str = <<'EOS'
+        str = <<'OUTPUT'
 ＿人人人人人人人＿
 ＞　突然のRuby　＜
 ￣Y^Y^Y^Y^Y^Y￣
-EOS
+OUTPUT
         expect(generator.new('突然のRuby').result).to eq(str.chomp)
       end
     end

@@ -5,7 +5,7 @@ require_relative '../lib/pebbles/totsugen'
 
 include Pebbles
 
-usage =<<"EOS"
+usage =<<"USAGE"
 #{$PROGRAM_NAME} - 突然のほにゃほにゃジェネレータ
 
 1. from $1
@@ -13,7 +13,7 @@ $ #{$PROGRAM_NAME} 突然の死
 
 2. from STDIN
 $ echo '突然の死' | #{$PROGRAM_NAME}
-EOS
+USAGE
 
 case ARGV.length
 when 0
