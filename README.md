@@ -1,11 +1,9 @@
-pebbles-totsugen
-================
+# pebbles-totsugen
 
 ![Build Status](https://github.com/kachick/pebbles-totsugen/actions/workflows/test_behaviors.yml/badge.svg?branch=main)
 [![Gem Version](https://badge.fury.io/rb/pebbles-totsugen.png)](http://badge.fury.io/rb/pebbles-totsugen)
 
-なにこれ
------------
+## なにこれ
 
 ```plaintext
 ＿人人人人人人人人人＿
@@ -13,8 +11,7 @@ pebbles-totsugen
 ￣Y^Y^Y^Y^Y^Y^Y^Y￣
 ```
 
-使い方
------
+## 使い方
 
 Ruby 2.6 以上 でテストしています。
 
@@ -54,8 +51,8 @@ Pebbles::TotsuGen.generate('突然のrequire') #=> ＿人人人人人人人人�
 
 ```
 
-Links
-----
+## リンク
 
-* [Repository](https://github.com/kachick/pebbles-totsugen)
-* [API documents](https://kachick.github.io/pebbles-totsugen/)
+* [ソースコード](https://github.com/kachick/pebbles-totsugen)
+* [APIドキュメント](https://kachick.github.io/pebbles-totsugen/)
+* [`pebbles` とはなにか](https://randd.kwappa.net/2010/12/19/192/)

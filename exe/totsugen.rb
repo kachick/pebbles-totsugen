@@ -4,8 +4,6 @@
 
 require_relative '../lib/pebbles/totsugen'
 
-include Pebbles
-
 usage =<<"USAGE"
 #{$PROGRAM_NAME} - `突然のほにゃほにゃ` ジェネレーター
 
@@ -18,9 +16,9 @@ USAGE
 
 case ARGV.length
 when 0
-  puts TotsuGen.generate(gets.chomp)
+  puts Pebbles::TotsuGen.generate(gets.chomp)
 when 1
-  puts TotsuGen.generate(ARGV.shift)
+  puts Pebbles::TotsuGen.generate(ARGV.shift)
 else
   abort(usage)
 end
