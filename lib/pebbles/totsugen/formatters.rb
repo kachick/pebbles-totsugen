@@ -15,7 +15,7 @@ module Pebbles
       private
 
       def body_length
-        @body.each_char.inject(0) { |total, char| total += char.bytesize == 1 ? 1 : 2 }
+        @body.each_char.sum { |char| (char.bytesize == 1) ? 1 : 2 }
       end
 
       def header
