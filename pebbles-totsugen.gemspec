@@ -6,9 +6,9 @@ require_relative 'lib/pebbles/totsugen/version'
 repository_url = "https://github.com/kachick/#{lib_name}"
 
 Gem::Specification.new do |gem|
-  gem.summary       = %q{`突然の死` generator!}
+  gem.summary       = %q{`突然のほにゃほにゃ` ジェネレーター}
   gem.description   = <<-'DESCRIPTION'
-    `突然の死` generator!
+    `突然のほにゃほにゃ` ジェネレーター
   DESCRIPTION
   gem.homepage      = repository_url
   gem.license       = 'MIT'

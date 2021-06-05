@@ -7,7 +7,7 @@ require_relative '../lib/pebbles/totsugen'
 include Pebbles
 
 usage =<<"USAGE"
-#{$PROGRAM_NAME} - 突然のほにゃほにゃジェネレータ
+#{$PROGRAM_NAME} - `突然のほにゃほにゃ` ジェネレーター
 
 1. from $1
 $ #{$PROGRAM_NAME} 突然の死
