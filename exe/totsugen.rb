@@ -1,5 +1,6 @@
 #!/usr/bin/env ruby
 # coding: utf-8
+# frozen_string_literal: true
 
 require_relative '../lib/pebbles/totsugen'
 
@@ -21,5 +22,5 @@ when 0
 when 1
   puts TotsuGen.generate(ARGV.shift)
 else
-  abort usage
+  abort(usage)
 end

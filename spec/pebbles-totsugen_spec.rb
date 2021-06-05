@@ -1,8 +1,9 @@
 # coding: utf-8
+# frozen_string_literal: true
 
 RSpec.describe Pebbles::TotsuGen do
   context '.generate' do
-    it "簡易フォーマットを返す" do
+    it '簡易フォーマットを返す' do
       str = Pebbles::TotsuGen::SimplifiedFormatter.new('突然の死').result
       expect(Pebbles::TotsuGen.generate('突然の死')).to eq(str)
     end
