@@ -10,5 +10,6 @@ module Pebbles
         formatter = SimplifiedFormatter.new(body.to_str)
         formatter.result
       end
-  end;   end
+    end
+  end
 end
