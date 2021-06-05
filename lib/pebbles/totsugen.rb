@@ -1,4 +1,6 @@
 # coding: us-ascii
+# frozen_string_literal: true
+
 # Copyright (c) 2013 Kenichi Kamiya
 
 module Pebbles
