@@ -55,4 +55,4 @@ Pebbles::TotsuGen.generate('突然のrequire') #=> ＿人人人人人人人人�
 
 * [ソースコード](https://github.com/kachick/pebbles-totsugen)
 * [APIドキュメント](https://kachick.github.io/pebbles-totsugen/)
-* [`pebbles` とはなにか](https://randd.kwappa.net/2010/12/19/192/)
+* ["pebbles" とはなにか](https://randd.kwappa.net/2010/12/19/192/)
