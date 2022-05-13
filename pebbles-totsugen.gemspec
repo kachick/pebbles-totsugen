@@ -16,13 +16,14 @@ Gem::Specification.new do |gem|
   gem.version       = Pebbles::TotsuGen::VERSION
 
   gem.metadata = {
-    'documentation_uri' => 'https://kachick.github.io/pebbles-totsugen/',
-    'homepage_uri'      => repository_url,
-    'source_code_uri'   => repository_url,
-    'bug_tracker_uri'   => "#{repository_url}/issues"
+    'documentation_uri'     => 'https://kachick.github.io/pebbles-totsugen/',
+    'homepage_uri'          => repository_url,
+    'source_code_uri'       => repository_url,
+    'bug_tracker_uri'       => "#{repository_url}/issues",
+    'rubygems_mfa_required' => 'true'
   }
 
-  gem.required_ruby_version = Gem::Requirement.new('>= 2.6.0')
+  gem.required_ruby_version = Gem::Requirement.new('>= 2.7.0')
 
   # common
 
