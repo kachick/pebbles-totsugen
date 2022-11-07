@@ -22,6 +22,6 @@ end
 
 group :test do
   gem 'rspec', '~> 3.12.0'
-  gem 'rspec-matchers-power_assert_matchers', '0.0.3'
+  gem 'rspec-matchers-power_assert_matchers', '0.1.0'
   gem 'warning', '~> 1.3.0'
 end
