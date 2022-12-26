@@ -1,7 +1,7 @@
 # pebbles-totsugen
 
 ![Build Status](https://github.com/kachick/pebbles-totsugen/actions/workflows/test_behaviors.yml/badge.svg?branch=main)
-[![Gem Version](https://badge.fury.io/rb/pebbles-totsugen.png)](http://badge.fury.io/rb/pebbles-totsugen)
+[![Gem Version](https://badge.fury.io/rb/pebbles-totsugen.svg)](http://badge.fury.io/rb/pebbles-totsugen)
 
 ## なにこれ
 
