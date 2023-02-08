@@ -3,15 +3,11 @@ updates:
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: "daily"
-      time: "08:00"
-      timezone: "Asia/Tokyo"
+      interval: "weekly"
   - package-ecosystem: "bundler"
     directory: "/"
     schedule:
-      interval: "daily"
-      time: "08:00"
-      timezone: "Asia/Tokyo"
+      interval: "monthly"
     versioning-strategy: increase
     ignore:
       - dependency-name: 'rubocop'
@@ -20,3 +16,4 @@ updates:
           - '1.31.2'
           # https://github.com/rubocop/rubocop/issues/11549
           - '1.45.0'
+
