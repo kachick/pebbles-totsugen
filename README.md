@@ -13,7 +13,7 @@
 
 ## 使い方
 
-Ruby 2.7 以上 でテストしています。
+Ruby 3.1 以上 でテストしています。
 
 ```console
 $ gem install pebbles-totsugen
