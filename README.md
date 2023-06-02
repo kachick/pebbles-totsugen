@@ -1,7 +1,12 @@
 # pebbles-totsugen
 
+```plaintext
+＿人人人人人人人人人人人人人人人人人人人＿
+＞　突然のアーカイブ! 突然のgem削除！！　＜
+￣Y^Y^Y^Y^Y^Y^Y^Y^Y^Y^Y^Y^Y^Y^Y^Y^Y^Y￣
+```
+
 ![Build Status](https://github.com/kachick/pebbles-totsugen/actions/workflows/test_behaviors.yml/badge.svg?branch=main)
-[![Gem Version](https://badge.fury.io/rb/pebbles-totsugen.svg)](http://badge.fury.io/rb/pebbles-totsugen)
 
 ## なにこれ
 
